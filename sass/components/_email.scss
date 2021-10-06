@@ -1,0 +1,55 @@
+#email-part{
+  padding: 100px 0;
+  background: #edf4f9;
+  .title h2{
+    text-align: center;
+    color: #000;
+    opacity: 0.1;
+  }
+  h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin-top: -72px;
+    text-align: center;
+  }
+  input{
+    display: inline-block;
+    padding: 15px;
+    padding-left: 25px;
+    background: #fff;
+    width: 600px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 270px;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+  }
+  .button{
+    display: inline-block;
+    a{
+      display: inline-block;
+        border: 0;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: bold;
+        
+        background: linear-gradient(to right, #6122ef, #08bbf6);
+        color: #fff;
+        text-transform: uppercase;
+        padding: 16px 30px;
+        text-align: center;
+        min-width: 160px;
+        margin-left: 10px;
+        transition: .4s;
+    }
+  }
+  span{
+    display: block;
+    font-size: 12px;
+    line-height: 28px;
+    color: rgb(106, 110, 116);
+    margin-top: 15px;
+    margin-left: 266px;
+  }
+}

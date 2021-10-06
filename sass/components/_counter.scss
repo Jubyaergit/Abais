@@ -1,0 +1,52 @@
+#counter-part{
+  position: relative;
+ .main{ 
+   width: 950px;
+   height: 200px;
+   margin: 0 auto;
+   background: linear-gradient(45deg, #08bbf6 0%, #6122ef 63%);
+   border-radius: 100px;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   padding: 0 60px;
+   .item{
+     margin: 0 auto;
+     margin-top: 35px;
+     position: relative;
+     i{
+      font-size: 38px;
+      margin-bottom: 10px;
+      display: block;
+      color: rgba(0, 0, 0, 0.5);
+     }
+     h3{
+       font-size: 38px;
+       color: #fff;
+       margin-top: 2px;
+     }
+     h4{
+       font-size: 20px;
+       color: #fff;
+     }
+     &::after{
+        background: rgba(255, 255, 255, 0.11);
+        position: absolute;
+        bottom: -9px;
+        left: 0;
+        width: 100%;
+        content: "";
+        height: 2px;
+        margin: 0 auto;
+        transition: .4s;
+        transform: scale(.8);
+     }
+     &:hover::after{
+       transform: scale(1);
+     }
+   }
+  }
+
+}
